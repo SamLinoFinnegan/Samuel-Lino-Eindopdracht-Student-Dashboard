@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+    .App{
+        background-color: #e5e8eb;
+        border: 1px solid #456268;
+        border-radius: 7px;
+        margin: 30px auto;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        width: 95%;
+        font-size: 14px;
+        .main-header{
+         margin-top:30px ;
+            text-align: center;
+            color: #456268;
+            font-size: xx-large;
+            font-weight: 900;
+            background-color: #e5e8eb;
+            .img{
+                height: 90px;
+                float: left;
+                margin-left: 40px ;
+                margin-bottom: 20px;
+            }
+            
+        }
+        .students, .student {
+            border: 1px solid #456268;
+            border-radius: 7px;
+            padding: 10px;
+            padding: 20px;
+            margin: 10px;
+            background-color: #7998b1;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            .main-nav {
+                border: 1px solid #456268;
+                border-radius: 7px;
+                width: 250px;
+                padding: 10px;
+                background-color: #e5e8eb;
+                box-shadow: 5px 5px 10px #456268;
+                .main-nav-ul{
+                    display: flex;
+                    flex-flow: row wrap;
+                    justify-content: space-between;
+                    text-align: left;
+                    .student__item{
+                        display: flex;
+                        justify-content: space-between;
+                        li{
+                            list-style: none;
+                            width: 100px;
+                            color: black
+                        }
+                        .student-checkbox{
+                            padding-left: 20px;
+                        }
+                    }
+                }
+            }
+            .info{
+                background-color: #e5e8eb;
+                border: 1px solid #456268;
+                border-radius: 7px;
+                box-shadow: 5px 5px 10px #456268;
+                width: 280px;
+                padding: 10px;
+                display: flex;
+                .image{
+                    height: 100px;
+                }
+            }
+            .all-students{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+            }
+            .options{
+                border: 1px solid #456268;
+                border-radius: 7px;
+                background-color: #e5e8eb;
+                box-shadow: 5px 5px 10px #456268;
+                width: 250px;
+                padding: 10px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .optioncheckboxes{
+                    display: flex;
+                    justify-content: space-around;
+                }
+                
+            }
+            .chart {
+                border: 1px solid #456268;
+                border-radius: 7px;
+                box-shadow: 5px 5px 10px #456268;
+                margin-top: 20px;
+                width: 100%;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 100px;
+                background-color: #e5e8eb;
+            }
+            .table-component{
+                width: 100%;
+                .sorttext{
+                    text-align: center;
+                    margin: 10px
+                }
+                .table {
+                    width: 100%;
+                    border: 1px solid #456268;
+                    border-radius: 7px;
+                    box-shadow: 5px 5px 10px #456268;
+                    text-align: center;
+                    background-color: #d0e8f2;
+                    tr:nth-child(even){
+                        background-color: #79a3b1;
+                    }
+                    th{
+                        padding: 3px 0px;;
+                    }
+                    .tablehead{
+                        cursor: pointer;
+                        text-decoration: underline;
+                    }
+                    td{
+                        text-align: left;
+                    }
+                    .num{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

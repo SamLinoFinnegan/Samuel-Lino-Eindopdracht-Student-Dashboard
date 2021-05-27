@@ -1,0 +1,211 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat';
+}
+
+* .App {
+  background-color: #e5e8eb;
+  border: 1px solid #456268;
+  border-radius: 7px;
+  margin: 30px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 95%;
+  font-size: 14px;
+}
+
+* .App .main-header {
+  margin-top: 30px;
+  text-align: center;
+  color: #456268;
+  font-size: xx-large;
+  font-weight: 900;
+  background-color: #e5e8eb;
+}
+
+* .App .main-header .img {
+  height: 90px;
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+* .App .students, * .App .student {
+  border: 1px solid #456268;
+  border-radius: 7px;
+  padding: 10px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #7998b1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* .App .students .main-nav, * .App .student .main-nav {
+  border: 1px solid #456268;
+  border-radius: 7px;
+  width: 250px;
+  padding: 10px;
+  background-color: #e5e8eb;
+  -webkit-box-shadow: 5px 5px 10px #456268;
+          box-shadow: 5px 5px 10px #456268;
+}
+
+* .App .students .main-nav .main-nav-ul, * .App .student .main-nav .main-nav-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: left;
+}
+
+* .App .students .main-nav .main-nav-ul .student__item, * .App .student .main-nav .main-nav-ul .student__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+* .App .students .main-nav .main-nav-ul .student__item li, * .App .student .main-nav .main-nav-ul .student__item li {
+  list-style: none;
+  width: 100px;
+  color: black;
+}
+
+* .App .students .main-nav .main-nav-ul .student__item .student-checkbox, * .App .student .main-nav .main-nav-ul .student__item .student-checkbox {
+  padding-left: 20px;
+}
+
+* .App .students .info, * .App .student .info {
+  background-color: #e5e8eb;
+  border: 1px solid #456268;
+  border-radius: 7px;
+  -webkit-box-shadow: 5px 5px 10px #456268;
+          box-shadow: 5px 5px 10px #456268;
+  width: 280px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+* .App .students .info .image, * .App .student .info .image {
+  height: 100px;
+}
+
+* .App .students .all-students, * .App .student .all-students {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+* .App .students .options, * .App .student .options {
+  border: 1px solid #456268;
+  border-radius: 7px;
+  background-color: #e5e8eb;
+  -webkit-box-shadow: 5px 5px 10px #456268;
+          box-shadow: 5px 5px 10px #456268;
+  width: 250px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+* .App .students .options .optioncheckboxes, * .App .student .options .optioncheckboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+* .App .students .chart, * .App .student .chart {
+  border: 1px solid #456268;
+  border-radius: 7px;
+  -webkit-box-shadow: 5px 5px 10px #456268;
+          box-shadow: 5px 5px 10px #456268;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  background-color: #e5e8eb;
+}
+
+* .App .students .table-component, * .App .student .table-component {
+  width: 100%;
+}
+
+* .App .students .table-component .sorttext, * .App .student .table-component .sorttext {
+  text-align: center;
+  margin: 10px;
+}
+
+* .App .students .table-component .table, * .App .student .table-component .table {
+  width: 100%;
+  border: 1px solid #456268;
+  border-radius: 7px;
+  -webkit-box-shadow: 5px 5px 10px #456268;
+          box-shadow: 5px 5px 10px #456268;
+  text-align: center;
+  background-color: #d0e8f2;
+}
+
+* .App .students .table-component .table tr:nth-child(even), * .App .student .table-component .table tr:nth-child(even) {
+  background-color: #79a3b1;
+}
+
+* .App .students .table-component .table th, * .App .student .table-component .table th {
+  padding: 3px 0px;
+}
+
+* .App .students .table-component .table .tablehead, * .App .student .table-component .table .tablehead {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+* .App .students .table-component .table td, * .App .student .table-component .table td {
+  text-align: left;
+}
+
+* .App .students .table-component .table .num, * .App .student .table-component .table .num {
+  text-align: center;
+}
