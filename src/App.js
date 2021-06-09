@@ -49,7 +49,7 @@ const App = ({ data,
     <Router>
       <main className="App">
         <header onClick={setAllActive} className="main-header">
-          <img class="img" src={winclogo}></img>
+          <img class="img" src={winclogo} alt="Winc Logo"></img>
           <h1>STUDENT DASHBOARD</h1></header>
         <Switch>
           <Route path="/" exact>
